@@ -16,6 +16,7 @@ const Index = () => {
             <a href="#experience" className="nav-link">Experience</a>
             <a href="#projects" className="nav-link">Projects</a>
             <a href="#skills" className="nav-link">Skills</a>
+            <a href="#certifications" className="nav-link">Certifications</a>
             <a href="#contact" className="nav-link">Contact</a>
           </div>
         </div>
@@ -571,6 +572,45 @@ const Index = () => {
           </div>
         </div>
       </section>
+      
+      {/* Certificates Section */}
+<section id="certifications" className="certifications-section">
+  <div className="section-blur-bg"></div>
+  <div className="container">
+    <h2 className="section-title">Certifications</h2>
+    <div className="certificates-grid">
+      <div className="certificate-card">
+        <h4 className="certificate-title">TensorFlow Developer Certificate</h4>
+        <p className="certificate-org">Offered by: DeepLearning.AI</p>
+        <p className="certificate-date">Date: May 2024</p>
+        <a
+          href="https://example.com/tensorflow-certificate"
+          target="_blank"
+          className="view-certificate"
+        >
+          View Certificate
+        </a>
+      </div>
+
+      <div className="certificate-card">
+        <h4 className="certificate-title">Data Science Specialization</h4>
+        <p className="certificate-org">Offered by: Coursera & Johns Hopkins</p>
+        <p className="certificate-date">Date: Jan 2024</p>
+        <a
+          href="https://example.com/data-science"
+          target="_blank"
+          className="view-certificate"
+        >
+          View Certificate
+        </a>
+      </div>
+
+      {/* Add more certificates here */}
+    </div>
+  </div>
+</section>
+
+
 
       {/* Contact Section */}
       <section id="contact" className="contact-section">
