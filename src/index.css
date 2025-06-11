@@ -549,16 +549,29 @@ section {
 
 .project-image {
   height: 60%;
-  background: var(--primary-gradient);
-  position: relative;
+  background-image: url("/public/assets/ipl.avif");
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .project-image-2 {
-  background: var(--secondary-gradient);
+  height: 60%;
+  background-image: url("/public/assets/rubbish.avif");
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .project-image-3 {
-  background: var(--accent-gradient);
+  height: 60%;
+  background-image: url("/public/assets/visualization.avif");
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 .project-title {
@@ -1420,7 +1433,7 @@ section {
 
 .certificate-date {
   font-size: 0.9rem;
-  color: var(--neon-blue);
+  color: rgb(162, 157, 108);
   margin-bottom: 1rem;
 }
 
@@ -1428,18 +1441,35 @@ section {
   display: inline-block;
   font-size: 0.95rem;
   font-weight: 600;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: var(--neon-blue); 
+  border: 1px solid white; 
   padding: 0.4rem 1rem;
   border-radius: 8px;
   text-decoration: none;
+  background-color: transparent;
   transition: background 0.3s ease, color 0.3s ease;
 }
 
 .view-certificate:hover {
-  background: var(--primary-color);
-  color: #fff;
+  background-color: blue;
+  color: white; 
 }
+
+.credential-id {
+  display: block; /* makes it appear on a new line */
+  margin-bottom: 1rem; /* adds space before the button */
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: white;
+  background: rgba(213, 209, 187, 0.1);
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 #certifications {
   scroll-margin-top: 100px; /* Adjust this to match your fixed navbar height */
