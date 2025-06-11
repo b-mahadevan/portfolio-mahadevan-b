@@ -1372,3 +1372,85 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 1rem;
 }
+
+/* Certificates Section */
+.certificates-section {
+  padding: 8rem 0;
+  background: var(--dark-bg);
+  display: flex;
+  align-items: center;
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.certificate-card {
+  background: var(--dark-surface);
+  border: 2px solid var(--dark-border);
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+  animation: skillSlide 0.8s ease-out;
+}
+
+.certificate-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  border-color: var(--neon-blue);
+  box-shadow: 0 20px 40px rgba(91, 192, 222, 0.3);
+}
+
+.certificate-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 0.8rem;
+}
+
+.certificate-org {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 0.5rem;
+}
+
+.certificate-date {
+  font-size: 0.9rem;
+  color: var(--neon-blue);
+  margin-bottom: 1rem;
+}
+
+.view-certificate {
+  display: inline-block;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.view-certificate:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+#certifications {
+  scroll-margin-top: 100px; /* Adjust this to match your fixed navbar height */
+}
+
+.site-footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 0.95rem;
+  color: var(--text-light);
+  opacity: 0.8;
+  background-color: var(--dark-bg);
+  border-top: 1px solid var(--dark-border);
+}
