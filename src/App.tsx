@@ -19,6 +19,10 @@ const App = () => (
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
+        {/* Footer can go here */}
+        <footer className="site-footer">
+          <p className="footer-credit">Designed & Developed by Mahadevan B © 2025</p>
+        </footer>
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
