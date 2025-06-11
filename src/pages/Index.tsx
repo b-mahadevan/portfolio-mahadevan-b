@@ -181,9 +181,9 @@ const Index = () => {
             </div>
             
             <div className="education-item">
-              <div className="education-date">2018 - 2020</div>
+              <div className="education-date">Mar 2020</div>
               <div className="education-content">
-                <h3 className="education-title">HSC Second Year</h3>
+                <h3 className="education-title">12th Standard (HSC)</h3>
                 <h4 className="education-institution">PACM Boys Higher Secondary School, Rajapalayam</h4>
                 <p className="education-description">
                   Completed Higher Secondary (Class 12) with a focus on Mathematics, Physics, Chemistry and Biology under the Tamil Nadu State Board.
@@ -193,6 +193,21 @@ const Index = () => {
                 </div>
               </div>
             </div>
+
+            <div className="education-item">
+              <div className="education-date">Mar 2018</div>
+              <div className="education-content">
+                <h3 className="education-title">10th Standard (SSLC)</h3>
+                <h4 className="education-institution">PACM Boys Higher Secondary School, Rajapalayam</h4>
+                <p className="education-description">
+                  Completed Secondary Schooling (Class 10) with core subjects including Tamil, English, Mathematics, Science, and Social Science under the Tamil Nadu State Board.
+                </p>
+                <div className="education-achievements">
+                  <span className="achievement-tag">CGPA: 9.36/10.00</span>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -580,11 +595,11 @@ const Index = () => {
     <h2 className="section-title">Certifications</h2>
     <div className="certificates-grid">
       <div className="certificate-card">
-        <h4 className="certificate-title">TensorFlow Developer Certificate</h4>
-        <p className="certificate-org">Offered by: DeepLearning.AI</p>
-        <p className="certificate-date">Date: May 2024</p>
+        <h4 className="certificate-title">Python Course - Updated [2025]</h4>
+        <p className="certificate-org">GeeksforGeeks</p>
+        <p className="certificate-date">May 2025</p>
         <a
-          href="https://example.com/tensorflow-certificate"
+          href="https://media.geeksforgeeks.org/courses/certificates/e0ceb1224df3d6a6492e2e1efa2ef073.pdf"
           target="_blank"
           className="view-certificate"
         >
@@ -593,11 +608,11 @@ const Index = () => {
       </div>
 
       <div className="certificate-card">
-        <h4 className="certificate-title">Data Science Specialization</h4>
-        <p className="certificate-org">Offered by: Coursera & Johns Hopkins</p>
-        <p className="certificate-date">Date: Jan 2024</p>
+        <h4 className="certificate-title">Git for Beginners</h4>
+        <p className="certificate-org">Udemy</p>
+        <p className="certificate-date">May 2025</p>
         <a
-          href="https://example.com/data-science"
+          href="https://www.udemy.com/certificate/UC-2f6ce925-0f6b-4dd5-8e1e-ddc868b07980/"
           target="_blank"
           className="view-certificate"
         >
@@ -605,7 +620,49 @@ const Index = () => {
         </a>
       </div>
 
-      {/* Add more certificates here */}
+      <div className="certificate-card">
+        <h4 className="certificate-title">Google Cloud Computing Foundations</h4>
+        <p className="certificate-org">NPTEL</p>
+        <p className="certificate-date">Oct 2024</p>
+        <p className="credential-id">NPTEL24CS131S552400116</p>
+        <a
+          href="https://nptel.ac.in/noc/E_Certificate/NPTEL24CS131S55240011603994609"
+          target="_blank"
+          className="view-certificate"
+        >
+          View Certificate
+        </a>
+      </div>
+
+      <div className="certificate-card">
+        <h4 className="certificate-title">Data Analytics with Python</h4>
+        <p className="certificate-org">NPTEL</p>
+        <p className="certificate-date">Apr 2024</p>
+        <p className="credential-id">NPTEL24CS20S970100116</p>
+        <a
+          href="https://nptel.ac.in/noc/E_Certificate/NPTEL24CS20S97010011630461262"
+          target="_blank"
+          className="view-certificate"
+        >
+          View Certificate
+        </a>
+      </div>
+
+      <div className="certificate-card">
+        <h4 className="certificate-title">Senior Grade Typewriting English</h4>
+        <p className="certificate-org">Government of Tamil Nadu Department of Technical Education Chennai</p>
+        <p className="certificate-date">Feb 2023</p>
+        <p className="credential-id">GTE 1177972</p>
+      </div>
+
+      <div className="certificate-card">
+        <h4 className="certificate-title">Junior Grade Typewriting English</h4>
+        <p className="certificate-org">Government of Tamil Nadu Department of Technical Education Chennai</p>
+        <p className="certificate-date">Aug 2022</p>
+        <p className="credential-id">GTE 1145849</p>
+      </div>
+
+      
     </div>
   </div>
 </section>
