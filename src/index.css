@@ -526,6 +526,33 @@ section {
   text-shadow: 0 0 10px var(--neon-blue);
 }
 
+.project-image {
+  height: 60%;
+  background-image: url("/public/assets/ipl.avif");
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.project-image-2 {
+  height: 60%;
+  background-image: url("/public/assets/rubbish.avif");
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.project-image-3 {
+  height: 60%;
+  background-image: url("/public/assets/visualization.avif");
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
 /* Education Section */
 .education-section {
   padding: 8rem 0;
