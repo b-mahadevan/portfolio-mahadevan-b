@@ -202,6 +202,35 @@ body {
   animation: float 6s ease-in-out infinite;
 }
 
+.particle:nth-child(1) {
+  top: 20%;
+  left: 10%;
+  animation-delay: 0s;
+  background: var(--neon-blue);
+}
+
+.particle:nth-child(2) {
+  top: 60%;
+  left: 80%;
+  animation-delay: 1s;
+  background: var(--neon-pink);
+}
+
+.particle:nth-child(3) {
+  top: 80%;
+  left: 20%;
+  animation-delay: 2s;
+}
+
+
+.particle:nth-child(4) {
+  top: 50%;
+  left: 50%;
+  animation-delay: 4s;
+  background: var(--neon-pink);
+}
+
+
 @keyframes float {
   0%, 100% {
     transform: translateY(0) scale(1);
@@ -926,6 +955,122 @@ section {
   animation: iconFloat 3s ease-in-out infinite;
 }
 
+.skill-icon-ml {
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb); /* Light blue tones */
+}
+
+.skill-icon-dl {
+  background: linear-gradient(135deg, #d4fc79, #96e6a1); /* Light green to yellow */
+}
+
+.skill-icon-cnn {
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee); /* Soft purple-pink */
+}
+
+.skill-icon-datascience {
+  background: linear-gradient(135deg, #cfd9df, #e2ebf0); /* Very light navy-gray */
+}
+
+.skill-icon-statistics {
+  background: linear-gradient(135deg, #e0c3fc, #8ec5fc); /* Soft purple to blue */
+}
+
+.skill-icon-scraping {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee); /* Light neutral (clean feel) */
+}
+
+.skill-icon-timeseries {
+  background: linear-gradient(135deg, #89f7fe, #66a6ff); /* Trendy blue tones */
+}
+
+.skill-icon-cleaning {
+  background: linear-gradient(135deg, #d9f99d, #bef264); /* Fresh soft greens */
+}
+
+.skill-icon-visualization {
+  background: linear-gradient(135deg, #ffd194, #ffecd2); /* Soft peach */
+}
+
+.skill-icon-gcp {
+  background: linear-gradient(135deg, #c2e9fb, #e0c3fc); /* Light blue and purple */
+}
+
+.skill-icon-dbms {
+  background: linear-gradient(135deg, #e0eafc, #cfdef3); /* Subtle blue tones */
+}
+
+.skill-icon-python {
+  background: linear-gradient(135deg, #fdfcfb, #e2d1c3); /* Pale Python hues */
+}
+
+.skill-icon-pandas {
+  background: linear-gradient(135deg, #e6e9f0, #eef1f5); /* Light neutral grayscale */
+}
+
+.skill-icon-numpy {
+  background: linear-gradient(135deg, #fceabb, #f8b500); /* Sunny, friendly yellow */
+}
+
+.skill-icon-scikit {
+  background: linear-gradient(135deg, #ffe259, #ffa751); /* Scikit orange-light */
+}
+
+.skill-icon-tensorflow {
+  background: linear-gradient(135deg, #ffecd2, #fcb69f); /* Warm, friendly orange */
+}
+
+.skill-icon-keras {
+  background: linear-gradient(135deg, #f8cdda, #fbd786); /* Pink-orange pastel */
+}
+
+.skill-icon-pytorch {
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7); /* Soft torch pinks */
+}
+
+.skill-icon-powerbi {
+  background: linear-gradient(135deg, #f6f9fc, #ffe57f); /* Yellow-light */
+}
+
+.skill-icon-matplotlib {
+  background: linear-gradient(135deg, #b5fffc, #f0faff); /* Arctic light blues */
+}
+
+.skill-icon-seaborn {
+  background: linear-gradient(135deg, #c2ffd8, #465efb); /* Soft mint and blue */
+}
+
+.skill-icon-plotly {
+  background: linear-gradient(135deg, #d3cce3, #e9e4f0); /* Elegant light lilac */
+}
+
+.skill-icon-tableau {
+  background: linear-gradient(135deg, #ffecd2, #fcb69f); /* Warm light tones */
+}
+
+.skill-icon-streamlit {
+  background: linear-gradient(135deg, #ffe0e0, #ffc3a0); /* Light red-pink */
+}
+
+.skill-icon-django {
+  background: linear-gradient(135deg, #d4fc79, #96e6a1); /* Pastel green gradient */
+}
+
+.skill-icon-sql {
+  background: linear-gradient(135deg, #e0f7fa, #b2ebf2); /* Soft SQL blue */
+}
+
+.skill-icon-git {
+  background: linear-gradient(135deg, #ffd3a5, #fd6585); /* Light coral tones */
+}
+
+.skill-icon-excel {
+  background: linear-gradient(135deg, #d0f0c0, #b2fab4); /* Excel soft green */
+}
+
+.skill-icon-canva {
+  background: linear-gradient(135deg, #c3cfe2, #f5f7fa); /* Canva-inspired soft gradient */
+}
+
 @keyframes iconFloat {
   0%, 100% {
     transform: translateY(0);
@@ -1297,3 +1442,4 @@ section {
     width: 100%;
   }
 }
+
