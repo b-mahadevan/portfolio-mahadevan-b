@@ -341,91 +341,19 @@ const Index = () => {
           <h2 className="section-title">Skills & Expertise</h2>
           <div className="skills-container">
             <div className="skills-category">
-              <h3 className="category-title">Industry Knowledge</h3>
+              <h3 className="category-title">Programming Languages</h3>
               <div className="skills-grid">
                 <div className="skill-card">
-                  <div className="skill-icon skill-icon-ml"></div>
-                  <h4 className="skill-name">Machine Learning</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '90%'}}></div>
-                  </div>
-                  <span className="skill-percentage">90%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-dl"></div>
-                  <h4 className="skill-name">Deep Learning</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '70%'}}></div>
-                  </div>
-                  <span className="skill-percentage">70%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-cnn"></div>
-                  <h4 className="skill-name">CNNs</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '65%'}}></div>
-                  </div>
-                  <span className="skill-percentage">65%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-datascience"></div>
-                  <h4 className="skill-name">Data Science</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '90%'}}></div>
-                  </div>
-                  <span className="skill-percentage">90%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-statistics"></div>
-                  <h4 className="skill-name">Statistics</h4>
+                  <div className="skill-icon skill-icon-95"></div>
+                  <h4 className="skill-name">Python</h4>
                   <div className="skill-level">
                     <div className="skill-progress" style={{width: '95%'}}></div>
                   </div>
                   <span className="skill-percentage">95%</span>
                 </div>
                 <div className="skill-card">
-                  <div className="skill-icon skill-icon-scraping"></div>
-                  <h4 className="skill-name">Web Scraping</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '75%'}}></div>
-                  </div>
-                  <span className="skill-percentage">75%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-timeseries"></div>
-                  <h4 className="skill-name"> Time Series Analysis</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '75%'}}></div>
-                  </div>
-                  <span className="skill-percentage">75%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-cleaning"></div>
-                  <h4 className="skill-name">Data Cleaning</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '92%'}}></div>
-                  </div>
-                  <span className="skill-percentage">92%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-visualization"></div>
-                  <h4 className="skill-name">Data Visualization</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '93%'}}></div>
-                  </div>
-                  <span className="skill-percentage">93%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-gcp"></div>
-                  <h4 className="skill-name">Google Cloud Platform</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '75%'}}></div>
-                  </div>
-                  <span className="skill-percentage">75%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-dbms"></div>
-                  <h4 className="skill-name">DBMS</h4>
+                  <div className="skill-icon skill-icon-80"></div>
+                  <h4 className="skill-name">R</h4>
                   <div className="skill-level">
                     <div className="skill-progress" style={{width: '80%'}}></div>
                   </div>
@@ -433,149 +361,185 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="skills-category">
-              <h3 className="category-title">Tools & Technologies</h3>
+              <h3 className="category-title">Data Analysis & Manipulation</h3>
               <div className="skills-grid">
                 <div className="skill-card">
-                  <div className="skill-icon skill-icon-python"></div>
-                  <h4 className="skill-name">Python</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '96%'}}></div>
-                  </div>
-                  <span className="skill-percentage">96%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-pandas"></div>
+                  <div className="skill-icon skill-icon-95"></div>
                   <h4 className="skill-name">Pandas</h4>
                   <div className="skill-level">
-                    <div className="skill-progress" style={{width: '90%'}}></div>
+                    <div className="skill-progress" style={{width: '95%'}}></div>
                   </div>
-                  <span className="skill-percentage">90%</span>
+                  <span className="skill-percentage">95%</span>
                 </div>
                 <div className="skill-card">
-                  <div className="skill-icon skill-icon-numpy"></div>
-                  <h4 className="skill-name"> NumPy</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '80%'}}></div>
-                  </div>
-                  <span className="skill-percentage">80%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-scikit"></div>
-                  <h4 className="skill-name"> Scikit-learn</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '80%'}}></div>
-                  </div>
-                  <span className="skill-percentage">80%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-tensorflow"></div>
-                  <h4 className="skill-name"> TensorFlow</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '87%'}}></div>
-                  </div>
-                  <span className="skill-percentage">87%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-keras"></div>
-                  <h4 className="skill-name"> Keras </h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '75%'}}></div>
-                  </div>
-                  <span className="skill-percentage">75%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-pytorch"></div>
-                  <h4 className="skill-name"> PyTorch</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '75%'}}></div>
-                  </div>
-                  <span className="skill-percentage">75%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-powerbi"></div>
-                  <h4 className="skill-name"> Power BI</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '94%'}}></div>
-                  </div>
-                  <span className="skill-percentage">94%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-matplotlib"></div>
-                  <h4 className="skill-name"> Matplotlib</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '94%'}}></div>
-                  </div>
-                  <span className="skill-percentage">94%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-seaborn"></div>
-                  <h4 className="skill-name"> Seaborn</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '75%'}}></div>
-                  </div>
-                  <span className="skill-percentage">75%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-plotly"></div>
-                  <h4 className="skill-name"> Plotly</h4>
+                  <div className="skill-icon skill-icon-93"></div>
+                  <h4 className="skill-name">NumPy</h4>
                   <div className="skill-level">
                     <div className="skill-progress" style={{width: '93%'}}></div>
                   </div>
                   <span className="skill-percentage">93%</span>
                 </div>
                 <div className="skill-card">
-                  <div className="skill-icon skill-icon-tableau"></div>
-                  <h4 className="skill-name"> Tableau</h4>
+                  <div className="skill-icon skill-icon-98"></div>
+                  <h4 className="skill-name">Microsoft Excel</h4>
                   <div className="skill-level">
-                    <div className="skill-progress" style={{width: '77%'}}></div>
+                    <div className="skill-progress" style={{width: '98%'}}></div>
                   </div>
-                  <span className="skill-percentage">77%</span>
+                  <span className="skill-percentage">98%</span>
                 </div>
                 <div className="skill-card">
-                  <div className="skill-icon skill-icon-streamlit"></div>
-                  <h4 className="skill-name"> Streamlit</h4>
+                  <div className="skill-icon skill-icon-85"></div>
+                  <h4 className="skill-name">SQL</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '85%'}}></div>
+                  </div>
+                  <span className="skill-percentage">85%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-90"></div>
+                  <h4 className="skill-name">Data Cleaning</h4>
                   <div className="skill-level">
                     <div className="skill-progress" style={{width: '90%'}}></div>
                   </div>
                   <span className="skill-percentage">90%</span>
                 </div>
                 <div className="skill-card">
-                  <div className="skill-icon skill-icon-django"></div>
-                  <h4 className="skill-name"> Django</h4>
+                  <div className="skill-icon skill-icon-80"></div>
+                  <h4 className="skill-name">Data Wrangling</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '80%'}}></div>
+                  </div>
+                  <span className="skill-percentage">80%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-90"></div>
+                  <h4 className="skill-name">Exploratory Data Analysis (EDA)</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '90%'}}></div>
+                  </div>
+                  <span className="skill-percentage">90%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="skills-category">
+              <h3 className="category-title">Machine Learning & AI</h3>
+              <div className="skills-grid">
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-85"></div>
+                  <h4 className="skill-name">Scikit-learn</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '85%'}}></div>
+                  </div>
+                  <span className="skill-percentage">85%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-85"></div>
+                  <h4 className="skill-name">TensorFlow</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '85%'}}></div>
+                  </div>
+                  <span className="skill-percentage">85%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-75"></div>
+                  <h4 className="skill-name">Keras</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '75%'}}></div>
+                  </div>
+                  <span className="skill-percentage">75%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-75"></div>
+                  <h4 className="skill-name">PyTorch</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '75%'}}></div>
+                  </div>
+                  <span className="skill-percentage">75%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-93"></div>
+                  <h4 className="skill-name">Convolutional Neural Networks (CNNs)</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '93%'}}></div>
+                  </div>
+                  <span className="skill-percentage">93%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-93"></div>
+                  <h4 className="skill-name">Deep Learning</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '93%'}}></div>
+                  </div>
+                  <span className="skill-percentage">93%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-93"></div>
+                  <h4 className="skill-name">Model Evaluation</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '93%'}}></div>
+                  </div>
+                  <span className="skill-percentage">93%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-90"></div>
+                  <h4 className="skill-name">Model Deployment</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '90%'}}></div>
+                  </div>
+                  <span className="skill-percentage">90%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="skills-category">
+              <h3 className="category-title">Data Visualization</h3>
+              <div className="skills-grid">
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-95"></div>
+                  <h4 className="skill-name">Matplotlib</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '95%'}}></div>
+                  </div>
+                  <span className="skill-percentage">95%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-80"></div>
+                  <h4 className="skill-name">Seaborn</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '80%'}}></div>
+                  </div>
+                  <span className="skill-percentage">80%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-90"></div>
+                  <h4 className="skill-name">Plotly</h4>
                   <div className="skill-level">
                     <div className="skill-progress" style={{width: '90%'}}></div>
                   </div>
                   <span className="skill-percentage">90%</span>
                 </div>
                 <div className="skill-card">
-                  <div className="skill-icon skill-icon-sql"></div>
-                  <h4 className="skill-name"> SQL</h4>
+                  <div className="skill-icon skill-icon-95"></div>
+                  <h4 className="skill-name">Power BI</h4>
                   <div className="skill-level">
-                    <div className="skill-progress" style={{width: '87%'}}></div>
+                    <div className="skill-progress" style={{width: '95%'}}></div>
                   </div>
-                  <span className="skill-percentage">87%</span>
+                  <span className="skill-percentage">95%</span>
                 </div>
                 <div className="skill-card">
-                  <div className="skill-icon skill-icon-git"></div>
-                  <h4 className="skill-name"> Git</h4>
+                  <div className="skill-icon skill-icon-75"></div>
+                  <h4 className="skill-name">Tableau</h4>
                   <div className="skill-level">
-                    <div className="skill-progress" style={{width: '96%'}}></div>
+                    <div className="skill-progress" style={{width: '75%'}}></div>
                   </div>
-                  <span className="skill-percentage">96%</span>
+                  <span className="skill-percentage">75%</span>
                 </div>
                 <div className="skill-card">
-                  <div className="skill-icon skill-icon-excel"></div>
-                  <h4 className="skill-name"> Microsoft Excel</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '97%'}}></div>
-                  </div>
-                  <span className="skill-percentage">97%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-canva"></div>
-                  <h4 className="skill-name"> Canva</h4>
+                  <div className="skill-icon skill-icon-98"></div>
+                  <h4 className="skill-name">Canva</h4>
                   <div className="skill-level">
                     <div className="skill-progress" style={{width: '98%'}}></div>
                   </div>
@@ -583,9 +547,175 @@ const Index = () => {
                 </div>
               </div>
             </div>
+
+            <div className="skills-category">
+              <h3 className="category-title">Web & App Development</h3>
+              <div className="skills-grid">
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-93"></div>
+                  <h4 className="skill-name">Django</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '93%'}}></div>
+                  </div>
+                  <span className="skill-percentage">93%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-93"></div>
+                  <h4 className="skill-name">Streamlit</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '93%'}}></div>
+                  </div>
+                  <span className="skill-percentage">93%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-85"></div>
+                  <h4 className="skill-name">Web Scraping (BeautifulSoup, Selenium)</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '85%'}}></div>
+                  </div>
+                  <span className="skill-percentage">85%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-75"></div>
+                  <h4 className="skill-name">REST APIs</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '75%'}}></div>
+                  </div>
+                  <span className="skill-percentage">75%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-75"></div>
+                  <h4 className="skill-name">HTML/CSS (basic)</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '75%'}}></div>
+                  </div>
+                  <span className="skill-percentage">75%</span>
+                </div>
+              </div>
+            </div>
+
+            
+
+            <div className="skills-category">
+              <h3 className="category-title">Statistics & Math Libraries</h3>
+              <div className="skills-grid">
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-85"></div>
+                  <h4 className="skill-name">SciPy</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '85%'}}></div>
+                  </div>
+                  <span className="skill-percentage">85%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-80"></div>
+                  <h4 className="skill-name">StatsModels</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '80%'}}></div>
+                  </div>
+                  <span className="skill-percentage">80%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-98"></div>
+                  <h4 className="skill-name">Probability & Distributions</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '98%'}}></div>
+                  </div>
+                  <span className="skill-percentage">98%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-95"></div>
+                  <h4 className="skill-name">Hypothesis Testing</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '95%'}}></div>
+                  </div>
+                  <span className="skill-percentage">95%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-98"></div>
+                  <h4 className="skill-name">Regression Analysis</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '98%'}}></div>
+                  </div>
+                  <span className="skill-percentage">98%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="skills-category">
+              <h3 className="category-title">Cloud & Dev Tools</h3>
+              <div className="skills-grid">
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-85"></div>
+                  <h4 className="skill-name">Google Cloud Platform (GCP)</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '85%'}}></div>
+                  </div>
+                  <span className="skill-percentage">85%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-90"></div>
+                  <h4 className="skill-name">Git</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '90%'}}></div>
+                  </div>
+                  <span className="skill-percentage">90%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-90"></div>
+                  <h4 className="skill-name">GitHub</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '90%'}}></div>
+                  </div>
+                  <span className="skill-percentage">90%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-90"></div>
+                  <h4 className="skill-name">Jupyter Notebook</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '90%'}}></div>
+                  </div>
+                  <span className="skill-percentage">90%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-93"></div>
+                  <h4 className="skill-name"> Google Colab</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '93%'}}></div>
+                  </div>
+                  <span className="skill-percentage">93%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-98"></div>
+                  <h4 className="skill-name">VS Code</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '98%'}}></div>
+                  </div>
+                  <span className="skill-percentage">98%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-75"></div>
+                  <h4 className="skill-name">Firebase CLI</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '75%'}}></div>
+                  </div>
+                  <span className="skill-percentage">75%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-75"></div>
+                  <h4 className="skill-name">npm</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '75%'}}></div>
+                  </div>
+                  <span className="skill-percentage">75%</span>
+                </div>
+              </div>
+            </div>
+
             
           </div>
         </div>
+        
       </section>
       
       {/* Certificates Section */}
