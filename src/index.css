@@ -956,31 +956,31 @@ section {
 }
 
 .skill-icon-98 {
-  background: linear-gradient(135deg, #4a4ac8, #5f5f9b); /* Charcoal to deep slate */
+  background: linear-gradient(135deg, #4a4ac8, #5f5f9b); 
 }
 
 .skill-icon-95 {
-  background: linear-gradient(135deg, #858955, #9fab65); /* Graphite gray blend */
+  background: linear-gradient(135deg, #858955, #9fab65); 
 }
 
 .skill-icon-93 {
-  background: linear-gradient(135deg, #ae8155, #4c4c6d); /* Slate to ash */
+  background: linear-gradient(135deg, #ae8155, #4c4c6d); 
 }
 
 .skill-icon-90 {
-  background: linear-gradient(135deg, #6b6b75, #7d7d87); /* Dusty mid-gray */
+  background: linear-gradient(135deg, #6b6b75, #7d7d87); 
 }
 
 .skill-icon-85 {
-  background: linear-gradient(135deg, #8e8eb3, #b3b3bd); /* Subtle silver gray */
+  background: linear-gradient(135deg, #8e8eb3, #b3b3bd); 
 }
 
 .skill-icon-80 {
-  background: linear-gradient(135deg, #796b79, #a49ca4); /* Very light slate gray */
+  background: linear-gradient(135deg, #796b79, #a49ca4); 
 }
 
 .skill-icon-75 {
-  background: linear-gradient(135deg, #363633, #242426); /* Gentle dim white-gray */
+  background: linear-gradient(135deg, #363633, #242426); 
 }
 
 @keyframes iconFloat {
