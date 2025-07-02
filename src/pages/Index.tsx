@@ -218,6 +218,32 @@ const Index = () => {
         <div className="container">
           <h2 className="section-title">Experience</h2>
           <div className="timeline">
+
+            <div className="timeline-item">
+              <div className="timeline-date">Jul 2025 - Present</div>
+              <div className="timeline-content">
+                <h3 className="timeline-title">Data Science and Machine Learning</h3>
+                <h4 className="timeline-company">Gilbert Research Center</h4>
+                <p className="timeline-description">
+                  Collaborated with senior scientists at Gilbert Research Center to tackle complex data science and machine learning assignments.  
+                  Participated in weekly mentorship sessions, enhancing my practical skills and industry knowledge.  
+                  Successfully completed 8+ assignments, contributing to innovative projects in the medical field.
+                </p>
+              </div>
+            </div>
+
+            <div className="timeline-item">
+              <div className="timeline-date">Jun 2024 - Present</div>
+              <div className="timeline-content">
+                <h3 className="timeline-title">Data Science Intern</h3>
+                <h4 className="timeline-company">Cognifyz Technologies</h4>
+                <p className="timeline-description">
+                  Working as a Data Science Intern at Cognifyz Technologies, contributing to task-based projects in Python and machine learning.
+                  Sharing project work on LinkedIn and building portfolio through original, hands-on assignments under remote mentorship.
+                </p>
+              </div>
+            </div>
+
             <div className="timeline-item">
               <div className="timeline-date">Nov 2024 - Present</div>
               <div className="timeline-content">
@@ -234,7 +260,7 @@ const Index = () => {
             <div className="timeline-item">
               <div className="timeline-date">Nov 2023 - May 2025</div>
               <div className="timeline-content">
-                <h3 className="timeline-title">Maths Content Associate</h3>
+                <h3 className="timeline-title">Math Intern (Maths Content Associate)</h3>
                 <h4 className="timeline-company">LETS UNBOUND</h4>
                 <p className="timeline-description">
                   As a Math Content Associate at Lets Unbound, I developed over 100 A-level mathematics presentations using Canva, which have been adopted by more than 500 students worldwide. 
@@ -243,7 +269,7 @@ const Index = () => {
               </div>
             </div>
             
-      
+    
           </div>
         </div>
       </section>
@@ -724,6 +750,46 @@ const Index = () => {
   <div className="container">
     <h2 className="section-title">Certifications</h2>
     <div className="certificates-grid">
+
+      <div className="certificate-card">
+        <h4 className="certificate-title">Supervised Machine Learning: Regression and Classification</h4>
+        <p className="certificate-org">Stanford University</p>
+        <p className="certificate-date">Jun 2025</p>
+        <a
+          href="https://coursera.org/verify/7RPEQOESYVYV"
+          target="_blank"
+          className="view-certificate"
+        >
+          View Certificate
+        </a>
+      </div>
+
+      <div className="certificate-card">
+        <h4 className="certificate-title">Data Analysis with Python and Pandas</h4>
+        <p className="certificate-org">Linkedin Learning</p>
+        <p className="certificate-date">Jun 2025</p>
+        <a
+          href="https://www.linkedin.com/learning/certificates/2820b58fe57ea99be9256230879e77719a5f2fa43d6c3bea12569810c14e17f2"
+          target="_blank"
+          className="view-certificate"
+        >
+          View Certificate
+        </a>
+      </div>
+
+      <div className="certificate-card">
+        <h4 className="certificate-title">NumPy Essential Training: Foundations of NumPy</h4>
+        <p className="certificate-org">Linkedin Learning</p>
+        <p className="certificate-date">Jun 2025</p>
+        <a
+          href="https://www.linkedin.com/learning/certificates/5181e9ff19d7a2eaad1373a14b110ec1a32176f408ec684e13207f0ff8dd521a"
+          target="_blank"
+          className="view-certificate"
+        >
+          View Certificate
+        </a>
+      </div>
+
       <div className="certificate-card">
         <h4 className="certificate-title">Python Course - Updated [2025]</h4>
         <p className="certificate-org">GeeksforGeeks</p>
@@ -738,17 +804,19 @@ const Index = () => {
       </div>
 
       <div className="certificate-card">
-        <h4 className="certificate-title">Git for Beginners</h4>
-        <p className="certificate-org">Udemy</p>
-        <p className="certificate-date">May 2025</p>
+        <h4 className="certificate-title">Data Analytics with Python</h4>
+        <p className="certificate-org">NPTEL</p>
+        <p className="certificate-date">Apr 2024</p>
+        <p className="credential-id">NPTEL24CS20S970100116</p>
         <a
-          href="https://www.udemy.com/certificate/UC-2f6ce925-0f6b-4dd5-8e1e-ddc868b07980/"
+          href="https://nptel.ac.in/noc/E_Certificate/NPTEL24CS20S97010011630461262"
           target="_blank"
           className="view-certificate"
         >
           View Certificate
         </a>
       </div>
+
 
       <div className="certificate-card">
         <h4 className="certificate-title">Google Cloud Computing Foundations</h4>
@@ -765,12 +833,11 @@ const Index = () => {
       </div>
 
       <div className="certificate-card">
-        <h4 className="certificate-title">Data Analytics with Python</h4>
-        <p className="certificate-org">NPTEL</p>
-        <p className="certificate-date">Apr 2024</p>
-        <p className="credential-id">NPTEL24CS20S970100116</p>
+        <h4 className="certificate-title">Git for Beginners</h4>
+        <p className="certificate-org">Udemy</p>
+        <p className="certificate-date">May 2025</p>
         <a
-          href="https://nptel.ac.in/noc/E_Certificate/NPTEL24CS20S97010011630461262"
+          href="https://www.udemy.com/certificate/UC-2f6ce925-0f6b-4dd5-8e1e-ddc868b07980/"
           target="_blank"
           className="view-certificate"
         >
