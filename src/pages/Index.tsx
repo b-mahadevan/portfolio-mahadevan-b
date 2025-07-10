@@ -75,7 +75,7 @@ const Index = () => {
 
       <div className="hero-buttons">
         <a href="#contact" className="cta-button primary">Contact Me</a>
-        <a href="/assets/MAHADEVAN B.pdf" className="cta-button secondary" target="_blank" rel="noopener noreferrer">
+        <a href="/assets/Mahadevan B.pdf" className="cta-button secondary" target="_blank" rel="noopener noreferrer">
           View Resume
         </a>
       </div>
