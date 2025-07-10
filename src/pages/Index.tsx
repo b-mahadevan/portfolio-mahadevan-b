@@ -57,8 +57,9 @@ const Index = () => {
         <TypeAnimation
           sequence={[
             'Data Scientist', 2500,
-            'Data Analyst', 2500,
             'ML Engineer', 2500,
+            'Data Analyst', 2500,
+            'BI Analyst', 2500,
           ]}
           wrapper="span"
           speed={50}
@@ -68,8 +69,8 @@ const Index = () => {
       </h1>
 
       <p className="hero-subtitle">
-        Transforming data into impactful insights and intelligent systems. <br />
-        Bridging analytics and machine learning to drive real-world innovation.
+        Turning raw data into meaningful insights, predictive models, and intelligent systems. <br />
+        Bridging analytics, machine learning, and business intelligence to solve real-world problems and drive innovation.
       </p>
 
       <div className="hero-buttons">
@@ -122,14 +123,17 @@ const Index = () => {
           <div className="about-content">
             <div className="about-text">
               <p className="about-paragraph">
-                I am a passionate Data Science graduate with a strong foundation in Statistics and hands-on experience in data analysis, machine learning, and AI. 
-                I hold a B.Sc. in Statistics from Government Arts College, Coimbatore, where I developed a deep understanding of probability, statistical inference, and data modeling. 
-                I further enhanced my skills by completing an M.Sc. in Data Science from Bharathiar University, where I worked extensively with Python, machine learning, deep learning, and data visualization tools such as Power BI and Matplotlib.
-                I’ve also completed projects including an AI-powered waste classification system and a player recommendation engine for IPL 2024, both of which demonstrated my ability to apply data science to real-world challenges.
+                I’m Mahadevan B, a Data Science graduate with a strong foundation in Statistics and a passion for solving real-world problems through data-driven solutions. 
+                With a B.Sc. in Statistics and an M.Sc. in Data Science, I specialize in data analysis, machine learning, deep learning, and data visualization using tools like Python, SQL, Power BI, TensorFlow, and Scikit-learn.
               </p>
               <p className="about-paragraph">
-                I’m driven by curiosity and love turning raw data into meaningful insights. I’m currently seeking opportunities in Data Science, Machine Learning, or Data Analytics where I can contribute, learn, and grow. 
-                Let’s connect if you’re looking for someone skilled in Python, data analytics, and AI-driven solutions.
+                I’ve applied my skills to several impactful projects, including building an end-to-end AI-powered waste classification system using CNNs, TensorFlow, and Django—achieving over 80% test accuracy and deploying it as a web app with real-time predictions and disposal suggestions. 
+                In another project, I developed a data-driven IPL 2024 player recommendation system by scraping and analyzing over 17,000 deliveries from ESPNcricinfo data, using Power BI to create interactive dashboards for optimal team selection. 
+                I also worked on a booking prediction model for British Airways, handling class imbalance with SMOTETomek and training XGBoost and Random Forest models to identify customers most likely to complete bookings.
+              </p>
+              <p className="about-paragraph">
+                I’m currently seeking roles as a Data Scientist, ML Engineer, Data Analyst, or BI Analyst, where I can continue learning, building, and contributing to innovative teams. 
+                Let’s connect if you're looking for someone who brings technical skills, creativity, and a data-first mindset to the table.
               </p>
             </div>
           </div>
@@ -279,10 +283,37 @@ const Index = () => {
         <div className="container">
           <h2 className="section-title">Featured Projects</h2>
           <div className="projects-grid">
+
             <div className="project-card">
               <div className="project-card-inner">
                 <div className="project-card-front">
-                  <div className="project-image"></div>
+                  <div className="project-image project-image"></div>
+                  <h3 className="project-title">British Airways Lounge Demand and Booking Prediction</h3>
+                  <p className="project-description"> Booking Prediction using Python & XGBoost</p>
+                </div>
+                <div className="project-card-back">
+                  <div className="project-details">
+                    <h3>Airline Analytics</h3>
+                    <p>Built a lounge demand estimator and booking prediction model, achieving 72% accuracy with XGBoost after handling imbalance via SMOTETomek.</p>
+                    <div className="project-tech">
+                      <span className="tech-tag">Data Science</span>
+                      <span className="tech-tag">Machine Learning</span>
+                      <span className="tech-tag">Python</span>
+                      <span className="tech-tag">Data Modeling</span>
+                      <span className="tech-tag">Airport Planning</span>
+                    </div>
+                    <div className="project-links">
+                      <a href="https://github.com/b-mahadevan/british_airways_lounge_demand_and_booking_prediction" className="project-link">GitHub</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="project-card">
+              <div className="project-card-inner">
+                <div className="project-card-front">
+                  <div className="project-image-2"></div>
                   <h3 className="project-title">IPL 2024 Best XI</h3>
                   <p className="project-description">IPL team selector using Python & Power BI</p>
                 </div>
@@ -307,7 +338,7 @@ const Index = () => {
             <div className="project-card">
               <div className="project-card-inner">
                 <div className="project-card-front">
-                  <div className="project-image project-image-2"></div>
+                  <div className="project-image project-image-3"></div>
                   <h3 className="project-title">Rubbish Resolver</h3>
                   <p className="project-description">AI waste classifier with TensorFlow & Django</p>
                 </div>
@@ -335,7 +366,7 @@ const Index = () => {
             <div className="project-card">
               <div className="project-card-inner">
                 <div className="project-card-front">
-                  <div className="project-image project-image-3"></div>
+                  <div className="project-image project-image-4"></div>
                   <h3 className="project-title">Visualizing Data with Python</h3>
                   <p className="project-description">Data visualization with Python, Matplotlib, Plotly</p>
                 </div>
@@ -378,16 +409,166 @@ const Index = () => {
                   <span className="skill-percentage">95%</span>
                 </div>
                 <div className="skill-card">
-                  <div className="skill-icon skill-icon-80"></div>
+                  <div className="skill-icon skill-icon-85"></div>
                   <h4 className="skill-name">R</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '85%'}}></div>
+                  </div>
+                  <span className="skill-percentage">85%</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="skills-category">
+              <h3 className="category-title">Machine Learning & AI</h3>
+              <div className="skills-grid">
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-93"></div>
+                  <h4 className="skill-name">Machine Learning Algorithms</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '93%'}}></div>
+                  </div>
+                  <span className="skill-percentage">93%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-93"></div>
+                  <h4 className="skill-name">Supervised & Unsupervised Learning</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '93%'}}></div>
+                  </div>
+                  <span className="skill-percentage">93%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-85"></div>
+                  <h4 className="skill-name">Deep Learning</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '85%'}}></div>
+                  </div>
+                  <span className="skill-percentage">85%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-90"></div>
+                  <h4 className="skill-name">Scikit-learn</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '90%'}}></div>
+                  </div>
+                  <span className="skill-percentage">90%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-85"></div>
+                  <h4 className="skill-name">TensorFlow</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '85%'}}></div>
+                  </div>
+                  <span className="skill-percentage">85%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-80"></div>
+                  <h4 className="skill-name">Keras</h4>
                   <div className="skill-level">
                     <div className="skill-progress" style={{width: '80%'}}></div>
                   </div>
                   <span className="skill-percentage">80%</span>
                 </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-75"></div>
+                  <h4 className="skill-name">PyTorch</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '75%'}}></div>
+                  </div>
+                  <span className="skill-percentage">75%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-85"></div>
+                  <h4 className="skill-name">Convolutional Neural Networks (CNNs)</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '85%'}}></div>
+                  </div>
+                  <span className="skill-percentage">85%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-90"></div>
+                  <h4 className="skill-name">Model Evaluation</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '90%'}}></div>
+                  </div>
+                  <span className="skill-percentage">90%</span>
+                </div>
               </div>
             </div>
 
+            <div className="skills-category">
+              <h3 className="category-title">Natural Language Processing (NLP)</h3>
+              <div className="skills-grid">
+
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-90"></div>
+                  <h4 className="skill-name">Large Language Models (LLMs)</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '90%'}}></div>
+                  </div>
+                  <span className="skill-percentage">90%</span>
+                </div>
+
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-93"></div>
+                  <h4 className="skill-name">Text Preprocessing</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '93%'}}></div>
+                  </div>
+                  <span className="skill-percentage">93%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-85"></div>
+                  <h4 className="skill-name">Tokenization</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '85%'}}></div>
+                  </div>
+                  <span className="skill-percentage">85%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-85"></div>
+                  <h4 className="skill-name">Lemmatization</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '85%'}}></div>
+                  </div>
+                  <span className="skill-percentage">85%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-90"></div>
+                  <h4 className="skill-name">Sentiment Analysis</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '90%'}}></div>
+                  </div>
+                  <span className="skill-percentage">90%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-90"></div>
+                  <h4 className="skill-name">Named Entity Recognition (NER)</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '90%'}}></div>
+                  </div>
+                  <span className="skill-percentage">90%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-80"></div>
+                  <h4 className="skill-name">Topic Modeling</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '80%'}}></div>
+                  </div>
+                  <span className="skill-percentage">80%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-75"></div>
+                  <h4 className="skill-name">Transformers</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '75%'}}></div>
+                  </div>
+                  <span className="skill-percentage">75%</span>
+                </div>
+              </div>
+            </div>
+            
             <div className="skills-category">
               <h3 className="category-title">Data Analysis & Manipulation</h3>
               <div className="skills-grid">
@@ -408,20 +589,20 @@ const Index = () => {
                   <span className="skill-percentage">93%</span>
                 </div>
                 <div className="skill-card">
-                  <div className="skill-icon skill-icon-98"></div>
-                  <h4 className="skill-name">Microsoft Excel</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '98%'}}></div>
-                  </div>
-                  <span className="skill-percentage">98%</span>
-                </div>
-                <div className="skill-card">
                   <div className="skill-icon skill-icon-85"></div>
                   <h4 className="skill-name">SQL</h4>
                   <div className="skill-level">
                     <div className="skill-progress" style={{width: '85%'}}></div>
                   </div>
                   <span className="skill-percentage">85%</span>
+                </div>
+                <div className="skill-card">
+                  <div className="skill-icon skill-icon-93"></div>
+                  <h4 className="skill-name"> Exploratory Data Analysis (EDA)</h4>
+                  <div className="skill-level">
+                    <div className="skill-progress" style={{width: '93%'}}></div>
+                  </div>
+                  <span className="skill-percentage">93%</span>
                 </div>
                 <div className="skill-card">
                   <div className="skill-icon skill-icon-90"></div>
@@ -438,84 +619,6 @@ const Index = () => {
                     <div className="skill-progress" style={{width: '80%'}}></div>
                   </div>
                   <span className="skill-percentage">80%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-90"></div>
-                  <h4 className="skill-name">Exploratory Data Analysis (EDA)</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '90%'}}></div>
-                  </div>
-                  <span className="skill-percentage">90%</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="skills-category">
-              <h3 className="category-title">Machine Learning & AI</h3>
-              <div className="skills-grid">
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-85"></div>
-                  <h4 className="skill-name">Scikit-learn</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '85%'}}></div>
-                  </div>
-                  <span className="skill-percentage">85%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-85"></div>
-                  <h4 className="skill-name">TensorFlow</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '85%'}}></div>
-                  </div>
-                  <span className="skill-percentage">85%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-75"></div>
-                  <h4 className="skill-name">Keras</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '75%'}}></div>
-                  </div>
-                  <span className="skill-percentage">75%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-75"></div>
-                  <h4 className="skill-name">PyTorch</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '75%'}}></div>
-                  </div>
-                  <span className="skill-percentage">75%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-93"></div>
-                  <h4 className="skill-name">Convolutional Neural Networks (CNNs)</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '93%'}}></div>
-                  </div>
-                  <span className="skill-percentage">93%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-93"></div>
-                  <h4 className="skill-name">Deep Learning</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '93%'}}></div>
-                  </div>
-                  <span className="skill-percentage">93%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-93"></div>
-                  <h4 className="skill-name">Model Evaluation</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '93%'}}></div>
-                  </div>
-                  <span className="skill-percentage">93%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-90"></div>
-                  <h4 className="skill-name">Model Deployment</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '90%'}}></div>
-                  </div>
-                  <span className="skill-percentage">90%</span>
                 </div>
               </div>
             </div>
@@ -601,26 +704,8 @@ const Index = () => {
                   </div>
                   <span className="skill-percentage">85%</span>
                 </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-75"></div>
-                  <h4 className="skill-name">REST APIs</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '75%'}}></div>
-                  </div>
-                  <span className="skill-percentage">75%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-75"></div>
-                  <h4 className="skill-name">HTML/CSS (basic)</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '75%'}}></div>
-                  </div>
-                  <span className="skill-percentage">75%</span>
-                </div>
               </div>
             </div>
-
-            
 
             <div className="skills-category">
               <h3 className="category-title">Statistics & Math Libraries</h3>
@@ -657,14 +742,6 @@ const Index = () => {
                   </div>
                   <span className="skill-percentage">95%</span>
                 </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-98"></div>
-                  <h4 className="skill-name">Regression Analysis</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '98%'}}></div>
-                  </div>
-                  <span className="skill-percentage">98%</span>
-                </div>
               </div>
             </div>
 
@@ -680,32 +757,16 @@ const Index = () => {
                   <span className="skill-percentage">85%</span>
                 </div>
                 <div className="skill-card">
-                  <div className="skill-icon skill-icon-90"></div>
+                  <div className="skill-icon skill-icon-93"></div>
                   <h4 className="skill-name">Git</h4>
                   <div className="skill-level">
-                    <div className="skill-progress" style={{width: '90%'}}></div>
+                    <div className="skill-progress" style={{width: '93%'}}></div>
                   </div>
-                  <span className="skill-percentage">90%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-90"></div>
-                  <h4 className="skill-name">GitHub</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '90%'}}></div>
-                  </div>
-                  <span className="skill-percentage">90%</span>
-                </div>
-                <div className="skill-card">
-                  <div className="skill-icon skill-icon-90"></div>
-                  <h4 className="skill-name">Jupyter Notebook</h4>
-                  <div className="skill-level">
-                    <div className="skill-progress" style={{width: '90%'}}></div>
-                  </div>
-                  <span className="skill-percentage">90%</span>
+                  <span className="skill-percentage">93%</span>
                 </div>
                 <div className="skill-card">
                   <div className="skill-icon skill-icon-93"></div>
-                  <h4 className="skill-name"> Google Colab</h4>
+                  <h4 className="skill-name">GitHub</h4>
                   <div className="skill-level">
                     <div className="skill-progress" style={{width: '93%'}}></div>
                   </div>
@@ -713,27 +774,27 @@ const Index = () => {
                 </div>
                 <div className="skill-card">
                   <div className="skill-icon skill-icon-98"></div>
-                  <h4 className="skill-name">VS Code</h4>
+                  <h4 className="skill-name">Jupyter Notebook</h4>
                   <div className="skill-level">
                     <div className="skill-progress" style={{width: '98%'}}></div>
                   </div>
                   <span className="skill-percentage">98%</span>
                 </div>
                 <div className="skill-card">
-                  <div className="skill-icon skill-icon-75"></div>
-                  <h4 className="skill-name">Firebase CLI</h4>
+                  <div className="skill-icon skill-icon-98"></div>
+                  <h4 className="skill-name"> VS Code</h4>
                   <div className="skill-level">
-                    <div className="skill-progress" style={{width: '75%'}}></div>
+                    <div className="skill-progress" style={{width: '98%'}}></div>
                   </div>
-                  <span className="skill-percentage">75%</span>
+                  <span className="skill-percentage">98%</span>
                 </div>
                 <div className="skill-card">
-                  <div className="skill-icon skill-icon-75"></div>
-                  <h4 className="skill-name">npm</h4>
+                  <div className="skill-icon skill-icon-98"></div>
+                  <h4 className="skill-name">Firebase</h4>
                   <div className="skill-level">
-                    <div className="skill-progress" style={{width: '75%'}}></div>
+                    <div className="skill-progress" style={{width: '98%'}}></div>
                   </div>
-                  <span className="skill-percentage">75%</span>
+                  <span className="skill-percentage">98%</span>
                 </div>
               </div>
             </div>
@@ -750,6 +811,20 @@ const Index = () => {
   <div className="container">
     <h2 className="section-title">Certifications</h2>
     <div className="certificates-grid">
+
+
+      <div className="certificate-card">
+        <h4 className="certificate-title">British Airways - Data Science Job Simulation</h4>
+        <p className="certificate-org">Forage</p>
+        <p className="certificate-date">Jul 2025</p>
+        <a
+          href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/tMjbs76F526fF5v3G/NjynCWzGSaWXQCxSX_tMjbs76F526fF5v3G_hqcfMm5rjKEoKEfMn_1752055544623_completion_certificate.pdf"
+          target="_blank"
+          className="view-certificate"
+        >
+          View Certificate
+        </a>
+      </div>
 
       <div className="certificate-card">
         <h4 className="certificate-title">Supervised Machine Learning: Regression and Classification</h4>
@@ -838,6 +913,19 @@ const Index = () => {
         <p className="certificate-date">May 2025</p>
         <a
           href="https://www.udemy.com/certificate/UC-2f6ce925-0f6b-4dd5-8e1e-ddc868b07980/"
+          target="_blank"
+          className="view-certificate"
+        >
+          View Certificate
+        </a>
+      </div>
+
+      <div className="certificate-card">
+        <h4 className="certificate-title">Soft Skills Training</h4>
+        <p className="certificate-org">Infosys BPM</p>
+        <p className="certificate-date">Sep 2024</p>
+        <a
+          href="https://www.linkedin.com/posts/mahadevanbdatascientist_infosys-bpm-csr-soft-skills-training-program-activity-7325399542655324160-o8cy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFITlsoB-_Ii2IEvKj-UotTM8x0wyvK0MP8"
           target="_blank"
           className="view-certificate"
         >
